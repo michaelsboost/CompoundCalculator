@@ -1,0 +1,27 @@
+/* === Typography: Arvo Font Variants === */
+/* You can use these as utility classes when specific font styles are needed */
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+@import '../libraries/pico.min.css';
+
+  
+@tailwind components;
+@tailwind utilities;
